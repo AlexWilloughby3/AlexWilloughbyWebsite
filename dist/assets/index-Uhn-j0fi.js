@@ -133,7 +133,7 @@ def appCompletedSteps (s : AppState) (appId : Nat) : Set Step :=
         <a href="https://github.com/AlexWilloughby3" class="header-link" target="_blank">GitHub</a>
         <a href="https://linkedin.com/in/alexander-willoughby-r/" class="header-link" target="_blank">LinkedIn</a>
         <a href="mailto:alexanderwilloughbyr@gmail.com" class="header-link">Email</a>
-        <a href="/Willoughby, Alexander Resume.pdf" class="resume-link" target="_blank">Resume</a>
+        <a href="/AlexWilloughbyWebsite/Willoughby, Alexander Resume.pdf" class="resume-link" target="_blank">Resume</a>
       </div>
     </div>
 
@@ -204,7 +204,7 @@ def appCompletedSteps (s : AppState) (appId : Nat) : Set Step :=
       <span class="post-date">April 2026</span>
     </div>
   `,"post-formalization":c,about:`
-    <img src="/Alex.jpg" alt="Alex" class="profile-photo" />
+    <img src="/AlexWilloughbyWebsite/Alex.jpg" alt="Alex" class="profile-photo" />
     <h2>About</h2>
     <p>Hello!</p>
     <p>My name is Alexander Willoughby and I'm a third-year student at Carnegie Mellon University studying math and computer science. I'm particularly interested in analysis, logic, and their applications to computer science and machine learning. I built this site to share some of my work and projects.</p>

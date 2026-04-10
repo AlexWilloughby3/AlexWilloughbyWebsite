@@ -11,7 +11,7 @@ const pages: Record<string, string> = {
         <a href="https://github.com/AlexWilloughby3" class="header-link" target="_blank">GitHub</a>
         <a href="https://linkedin.com/in/alexander-willoughby-r/" class="header-link" target="_blank">LinkedIn</a>
         <a href="mailto:alexanderwilloughbyr@gmail.com" class="header-link">Email</a>
-        <a href="/Willoughby, Alexander Resume.pdf" class="resume-link" target="_blank">Resume</a>
+        <a href="${import.meta.env.BASE_URL}Willoughby, Alexander Resume.pdf" class="resume-link" target="_blank">Resume</a>
       </div>
     </div>
 
@@ -86,7 +86,7 @@ const pages: Record<string, string> = {
   `,
   'post-formalization': postFormalization,
   about: `
-    <img src="/Alex.jpg" alt="Alex" class="profile-photo" />
+    <img src="${import.meta.env.BASE_URL}Alex.jpg" alt="Alex" class="profile-photo" />
     <h2>About</h2>
     <p>Hello!</p>
     <p>My name is Alexander Willoughby and I'm a third-year student at Carnegie Mellon University studying math and computer science. I'm particularly interested in analysis, logic, and their applications to computer science and machine learning. I built this site to share some of my work and projects.</p>
